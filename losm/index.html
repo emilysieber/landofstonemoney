@@ -1,0 +1,81 @@
+<!<!DOCTYPE html>
+  <html>
+
+  <head>
+    <title>Land of Stone Money</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+  </head>
+
+  <body>
+    <button id="open">
+      about the work
+    </button>
+
+    <div class="link">
+    <a href="zine/index.html">digital zine!</a>
+
+    </div>
+
+    <div class="modal-container" id="modal_container">
+      <div class="modal">
+        <p> Land of Stone Money is a series that includes clothing, a zine, and a website, that all feature illustrations and photos that encapsulates Micronesian culture in a contemporary way. This entire project serves as a way for me to heal parts of my childhood that felt shame and isolation. I grew up avoiding conversations about family and my background because it felt like a burden I had to explain. Sifting through the confusion of my audience trying to relate my existence to something familiar to them. This cross between cultures and not feeling too much a part of either has made its way throughout all aspects of my life. A jumble of things and ideas, nothing concrete. These pieces are the manifestation of me taking pride in the differences and its combination being unique to just me. This project includes ballpoint pen drawings and heat transferred images on clothing, a printed zine with collections of photographs and illustrations, and a website that holds all these items. </p>
+        <button id="close">
+          X
+        </button>
+      </div>
+    </div>
+
+    <div class="overlay">
+      <img class="title" src="images/title-20.png" alt="red text that reads Land of Stone Money" width=1000>
+    </div>
+
+    <div class="main-container">
+
+      <img class="aloe" src="images/aloe.png" alt="illustration of aloe leaf" width=400>
+      <img class="betel" src="images/betel.png" alt="illustration of betel nut" width=400>
+      <img class="me" src="images/me.png" alt="illustration of young girl" width=400>
+      <img class="rice" src="images/rice.png" alt="illustration of bowl of rice" width=400>
+      <img class="katie" src="images/katie.png" alt="illustration of young girl" width=400>
+      <img class="taro" src="images/taro.png" alt="illustration of taro wrap" width=400>
+      <img class="tuna" src="images/tuna.png" alt="illustration of tuna fish" width=250>
+      <img class="mom" src="images/mom.png" alt="illustration of woman with tattoo" width=400>
+      <img class="soy" src="images/soy.png" alt="illustration of bottle of soy sauce" width=230>
+
+    </div>
+
+  <br>
+  <br>
+  <br>
+
+    <div class="bottom-pics">
+
+      <img src="images/shirt2.png" alt="shirt" width=300>
+      <img src="images/buttonup.png" alt="button up" width=300>
+      <img src="images/dress.png" alt="dress" width=300>
+      <img src="images/pants.png" alt="pants" width=300>
+
+    </div>
+    <script>
+      const open = document.getElementById('open');
+      const modal_container = document.getElementById('modal_container');
+      const close = document.getElementById('close');
+
+      open.addEventListener('click', () => {
+        modal_container.classList.add('show');
+      })
+
+      close.addEventListener('click', () => {
+        modal_container.classList.remove('show');
+      })
+
+      // const lightbox = document.createElement('div')
+      // lightbox.id = 'lightbox'
+      // document.body.appendChild(lightbox)
+      //
+      // const
+    </script>
+
+  </body>
+
+  </html>

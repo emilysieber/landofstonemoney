@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #ffffeb;
+}
+
+a{
+  font-family: "times new roman", serif;
+  background-color: transparent;
+  border-style: solid;
+  border: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 5px 15px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.scroll{
+  margin:4px, 4px;
+  padding:4px;
+  background-color: white;
+  width: 1050px;
+  height: 650px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border: 0;
+}
